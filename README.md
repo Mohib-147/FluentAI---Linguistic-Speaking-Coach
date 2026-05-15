@@ -42,7 +42,7 @@ FluentAI is a web-based application designed to help users practice and improve 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/fluentai-linguistic-coach.git
+git clone https://github.com/Mohib-147/fluentai-linguistic-coach.git
 cd fluentai-linguistic-coach
 ```
 
