@@ -6,15 +6,6 @@ class SpeechToText:
         self.recognizer = sr.Recognizer()
 
     def transcribe(self, audio_path: str) -> Optional[str]:
-        """
-        Transcribe speech from an audio file (WAV format) to text.
-        
-        Args:
-            audio_path (str): Path to the audio file.
-        
-        Returns:
-            str: Transcribed text, or None if transcription fails.
-        """
         try:
             with sr.AudioFile(audio_path) as source:
                 audio_data = self.recognizer.record(source)
