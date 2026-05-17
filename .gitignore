@@ -1,0 +1,70 @@
+# ===== General =====
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.env.local
+
+# ===== Python (if any scripts crawl in) =====
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ===== npm/yarn/pnpm =====
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===== Build Output =====
+dist/
+.build/
+.next/
+out/
+coverage/
+build/
+tmp/
+temp/
+.cache/
+logs/
+*.log
+
+# ===== Editor/IDE Folders =====
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ===== Mac/Win Files =====
+.DS_Store
+Desktop.ini
+
+# ===== React/Vite/CRA =====
+frontend/.env*
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/.cache/
+
+# ===== Next.js (if backend is Next) =====
+backend/.env*
+backend/node_modules/
+backend/.next/
+backend/dist/
+backend/build/
+backend/.cache/
+backend/coverage/
+backend/logs/
+backend/*.log
+
+# ===== Database dumps/seeds (optional) =====
+*.sql
+!db/schema.sql
+!db/seed.sql
+
+# ===== Uploads (if any) =====
+uploads/
+public/uploads/
+
+# ===== OS Trash =====
+.trash/

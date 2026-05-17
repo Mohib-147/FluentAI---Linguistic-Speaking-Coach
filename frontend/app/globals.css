@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+}
+
+main {
+  min-height: 80vh;
+}
+
+a {
+  color: #2f6dfa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #1e429f;
+}
+
+/* Navbar styles can go here or in components/Navbar.tsx */
